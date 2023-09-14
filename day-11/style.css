@@ -107,7 +107,6 @@ body {
 /* unholy css to style input type="range" */
 
 input[type=range] {
-  -webkit-appearance: none;
   background: transparent;
   width: 100%;
   margin: 0 5px;
@@ -159,4 +158,12 @@ input[type=range]::-moz-range-thumb {
   border-radius: 50px;
   background: #ffc600;
   cursor: pointer;
+}
+
+#full_screen {
+  background: transparent;
+  color: #FFF; 
+  border: none; 
+  max-width: 3rem; 
+  font-size: 1.2rem;
 }
